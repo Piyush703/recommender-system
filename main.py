@@ -85,7 +85,7 @@ if uploaded_file is not None:
                 if i < len(indices[0]):
                     with col:
                         st.image(filenames[indices[0][i]], caption=f'Product {i + 1}', use_column_width=True)
-                        git init
+                        
                          # Show distance for more information
                 else:
                     st.empty()  # Leave empty space for alignment
